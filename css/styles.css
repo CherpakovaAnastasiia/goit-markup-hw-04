@@ -327,11 +327,53 @@ outline: 2px solid red;
     letter-spacing: 0.02em;
 }
 
+.team-icon {
+    display: flex;
+}
+
+/*---------------CUSTOMERS--------------*/
+
+.customers {}
+
+.section {}
+
+.container {}
+
+.customers-container {}
+
+.customers-title {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        align-items: center;
+}
+
+.section-title {}
+
+.customers-list {
+    display: flex;
+}
+
+.list {}
+
+.customers-item {}
+
+.advantages-icon {}
+
+
 /*---------------FOOTER--------------*/
 
 .footer {
     background-color: var(--navyblue);
     padding: 100px 0;
+}
+.footer-section {
+    display: flex;
 }
 
 .footer-container {
@@ -360,6 +402,23 @@ outline: 2px solid red;
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+
+.footer-icon-container {}
+
+.footer-title {
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-item {}
 
 /*---------------PORTFOLIO--------------*/
 
