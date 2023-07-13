@@ -617,11 +617,18 @@ color: var(--lightslate, #8E8F99);
 .adv-list-item {
     max-width: 360px;
     width: calc((100% - 48px) / 3);
+    border: 1px solid var(--cornflower, #E7E9FC);
+    background: var(--white, #FFF);
   
 }
 
 .adv-list-item:hover .adv-cover-text {
 transform: translateY(0);
+}
+
+.adv-list-item:hover {
+    border: 1px solid var(--cloud, #F4F4FD);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .adv-link {    
