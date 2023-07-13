@@ -536,15 +536,13 @@ color: var(--lightslate, #8E8F99);
     background-color: #31D0AA;
 }
 
-.footer-icon {}
+.footer-icon {
+    fill: var(--cloud);
+}
 
 .footer-item {}
 
 .footer-socials-link {}
-
-.footer-socials-link:is(:hover, :focus) {
-background-color: #31D0AA;
-}
 
 .footer-icon {}
 
