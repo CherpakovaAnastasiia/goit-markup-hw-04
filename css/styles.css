@@ -570,8 +570,6 @@ color: var(--lightslate, #8E8F99);
     cursor: pointer;
 }
 
-
-
 .navigation-list-item {}
 
 .navigation-text {
@@ -599,6 +597,7 @@ color: var(--lightslate, #8E8F99);
       color: #FFFFFF;
       background-color: #404BBF;
       border: 1px solid transparent;
+  }
 
 
 
