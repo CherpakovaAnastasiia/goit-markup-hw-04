@@ -610,11 +610,11 @@ body {
     background: var(--white, #FFF);
 }
 
-.adv-list-item:hover .adv-cover-text {
+.adv-link:hover .adv-cover-text {
     transform: translateY(0);
 }
 
-.adv-list-item:focus .adv-cover-text {
+.adv-link:focus .adv-cover-text {
     transform: translateY(0);
 }
 
