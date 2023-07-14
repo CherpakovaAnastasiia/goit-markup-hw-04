@@ -563,6 +563,10 @@ body {
     margin-bottom: 72px;
 }
 
+.navigation-list-item {
+    display: block;
+}
+
 .navigation-text {
     color: var(--iris);
     font-family: "Roboto", sans-serif;
@@ -608,6 +612,9 @@ body {
 .adv-list-item:hover .adv-cover-text {
 transform: translateY(0);
 }
+
+ .adv-list-item:focus .adv-cover-text {
+    transform: translateY(0);}
 
 .adv-list-item:hover {
     border: 1px solid var(--cloud, #F4F4FD);
@@ -723,6 +730,7 @@ transform: translateY(0);
 .modal-close-btn:focus {
     background: var(--ocean);
     border: none;
+    fill: #ffffff;
 }
 
 .modal-icon {
