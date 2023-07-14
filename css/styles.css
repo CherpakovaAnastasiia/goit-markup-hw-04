@@ -518,6 +518,7 @@ body {
 .footer-list {
     display: flex;
     gap: 16px;
+    
 }
 
 .footer-list-item {
@@ -725,7 +726,7 @@ transform: translateY(0);
 }
 
 .modal-icon {
-    color: var(--navyblue);
+    fill: var(--navyblue);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
