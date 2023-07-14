@@ -656,6 +656,11 @@ transform: translateY(0);
     padding: 40px 32px;
 }
 
+.adv-cover-text:hover,
+.adv-cover-text:focus {
+    transform: translateY(0%);
+}
+
 .adv-list-title {
     color: var(--navyblue);
     font-size: 20px;
