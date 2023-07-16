@@ -237,10 +237,6 @@ body {
     padding: 120px 0;
 }
 
-
-.advantages-container {
-}
-
 .advantages-s-list {
     display: flex;
     gap: 24px;
@@ -285,9 +281,6 @@ body {
 
 .possibilities {
     padding-bottom: 120px;
-}
-
-.possibilities-container {
 }
 
 .possibilities-title {
@@ -339,9 +332,6 @@ body {
     background-color: #FFFFFF;
     width: calc((100% - 24px*3) / 4);
     border-radius: 0px 0px 4px 4px;
-}
-
-.team-img {
 }
 
 .team-img-title {
@@ -401,9 +391,6 @@ body {
 
 .customers {
     padding: 120px 0;
-}
-
-.customers-container {
 }
 
 .customers-title {
@@ -528,8 +515,6 @@ body {
     height: 24px;
     fill: var(--cloud);
 }
-
-.footer-item {}
 
 .footer-socials-link {
     width: 100%;
